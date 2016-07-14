@@ -5,10 +5,6 @@ hostname        = "naxsi.dev"
 server_ip       = "192.168.22.12"
 server_cpus     = "2"
 server_memory   = "2048"
-server_swap     = "768"
-server_timezone = "UTC"
-
-public_folder = "/vagrant"
 
 Vagrant.configure("2") do |config|
 
