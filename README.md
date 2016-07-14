@@ -2,6 +2,16 @@
 A work in progress! Still working on getting the configs down. Disclaimers aside, `install_naxsi.sh` does work well and has been tested significantly. The part that 
 isn't quite down are the nginx configs.
 
+### Evaluate
+A `Vagrantfile` is included to setup an environment to play with naxsi. It installs nginx with naxsi and 
+sets default configurations.
+
+### Examples
+There are some example vulnerable scripts to test naxsi against.
+
+##### Todo
+- Have a bash script to setup the examples & configure nginx for the examples
+
 ### Naxsi
 1. Learning mode
   * Use it to help Naxsi build better rules
@@ -44,6 +54,6 @@ isn't quite down are the nginx configs.
 - https://2015.appsec.eu/wp-content/uploads/2015/09/owasp-appseceu2015-koechlin.pdf
 - http://www.senginx.org/en/index.php/Main_Page
 
-#### Credits
+### Credits
 - https://github.com/nginx-boilerplate/nginx-boilerplate
 - https://github.com/h5bp/server-configs-nginx
