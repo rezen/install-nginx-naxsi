@@ -7,10 +7,7 @@ A `Vagrantfile` is included to setup an environment to play with naxsi. It insta
 sets default configurations.
 
 ### Examples
-There are some example vulnerable scripts to test naxsi against.
-
-##### Todo
-- Have a bash script to setup the examples & configure nginx for the examples
+There are some example vulnerable scripts to test naxsi against. Once you are running vagrant (`vagrant ssh`) go to the examples folder and run `./setup.sh`
 
 ### Naxsi
 1. Learning mode
