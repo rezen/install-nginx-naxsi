@@ -1,0 +1,18 @@
+server
+{
+  listen 80;
+  root /var/www/html;
+
+  include conf/compress;
+  include conf/secure/methods;
+  include conf/secure/system-files;
+
+  location / {
+    include /etc/nginx/naxsi.conf;
+    index index.htm index.html;
+  }
+
+  location /denied {
+    return 418;
+  }
+}

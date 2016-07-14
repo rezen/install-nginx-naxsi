@@ -1,0 +1,2 @@
+load_module "/usr/modules/ngx_http_headers_more_filter_module.so";
+load_module "/usr/modules/ngx_http_testcookie_access_module.so";
