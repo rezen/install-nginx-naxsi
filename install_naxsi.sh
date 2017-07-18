@@ -242,7 +242,8 @@ update_configs()
 
   {
     service nginx reload
-    service nginx restart
+    service nginx stop
+    service nginx start
   } || { echo '[i] Restarted nginx'; }
 }
 

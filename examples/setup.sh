@@ -42,7 +42,7 @@ nginx_conf()
     cp ./examples /etc/nginx/sites-available/examples
   fi
 
-  rm /etc/nginx/sites-enabled/default
+  rm -f /etc/nginx/sites-enabled/default
 
   ln -nfs /etc/nginx/sites-available/examples /etc/nginx/sites-enabled/examples
   find /etc/nginx -type f -exec chmod 644 {} \;

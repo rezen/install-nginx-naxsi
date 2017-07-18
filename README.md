@@ -54,3 +54,11 @@ There are some example vulnerable scripts to test naxsi against. Once you are ru
 ### Credits
 - https://github.com/nginx-boilerplate/nginx-boilerplate
 - https://github.com/h5bp/server-configs-nginx
+
+### Todo
+- Unit test the install with https://github.com/sstephenson/bats
+- https://blog.netspi.com/using-strace-to-monitor-ssh-connections-on-linux/
+- http://xmodulo.com/how-to-count-the-number-of-open-network-connections-on-linux.html
+- http://www.linuxjournal.com/article/10964?page=0,1
+- https://evilshit.wordpress.com/2013/12/17/how-to-set-up-a-stateful-firewall-with-iptables/
+- http://simson.net/ref/2013/2013-12-05_tcpflow-and-BE-update.pdf
